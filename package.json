@@ -1,11 +1,18 @@
 {
   "name": "aws-clients-typescript",
   "version": "1.0.0",
-  "description": "",
+  "description": "A utility for interacting with various AWS SDK clients using TypeScript.",
   "private": true,
-  "keywords": [],
   "author": "xyl3m",
-  "license": "UNLICENSED",
+  "license": "MIT",
+  "keywords": ["aws", "sdk", "typescript"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xyl3m/aws-clients-typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xyl3m/aws-clients-typescript/issues"
+  },
   "scripts": {
     "build": "swc src -d dist",
     "start": "node -r @swc/register src/index.ts",
