@@ -1,4 +1,6 @@
 # AWS Clients TypeScript
+![Lint Check](https://github.com/xyl3m/aws-clients-typescript/actions/workflows/ci.yml/badge.svg?job=lint-check)
+![Unit Test](https://github.com/xyl3m/aws-clients-typescript/actions/workflows/ci.yml/badge.svg?job=unit-test)
 
 This repository contains a Node.js utility using TypeScript to interact with various AWS SDK clients. The utility is designed to help developers easily import and use AWS SDK clients in their TypeScript or JavaScript projects.
 
